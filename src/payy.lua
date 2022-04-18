@@ -389,6 +389,9 @@ function payy.fullAutoFarmFlour()
             sleep(2500)
         end
     end
+    if grinderX == nil or grinderY == nil then
+        return
+    end
     while true do
         local stockWheatBlock = math.floor(findItem(880))
         local stockWheatSeed = math.floor(findItem(881))
