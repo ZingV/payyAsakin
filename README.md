@@ -9,7 +9,7 @@ free open source and you can experiment making a new feature with it.
 - `Trash-item`
 - `Warp`
 - `Auto place 5 tile`
-- `Retrive gaia`
+- `Retrieve gaia`
 - `Auto break 5 tile`
 - `Put and Break 5 tile`
 - `Add stock to vending`
@@ -147,11 +147,11 @@ function main()
 end
 ```
 
-Retrive-gaia
+Retrieve-gaia
 --------------------------
 ```lua
 function main()
-    payy.retrieveGaya{
+    payy.retrieveGaia{
         itemID = 5667,
         x = 0,
         y = -1,
@@ -209,5 +209,5 @@ end
 
 Support
 -------
-If you find this module helpful and would like to support its development. You can donate me some wl at `world: payyAsakin`<br>
+If you find this module helpful and would like to support its development. <br>You can donate me some wl at `world: payyAsakin`<br>
 join discord: [https://discord.gg/WT4cBNNJKW]
