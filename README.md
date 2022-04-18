@@ -76,7 +76,7 @@ end
 Warp
 --------------------------
 
-If youu want enter world with id door, you can set `world = payyasakin|idDoor`
+If you want enter world with id door, you can set `world = payyasakin|idDoor`
 ```lua
 function main()
     payy.warp{
@@ -159,7 +159,7 @@ function main()
         count = 100
     }
     -- 5667 = lgrid seed
-    -- 15 = take seed every 10 minute
+    -- 15 = take seed every 15 minute
     -- 100 = total seed taking from gaia
 end
 ```
@@ -189,10 +189,11 @@ end
 Auto cook berry crepes
 --------------------------
 
+`YOU CAN IMPROVE THIS FUNCTION`<br>
 How it works? you need to drop all ingredient and then set `takeItemX` 
 and `takeItemY` to it. On variable `stackBuffer` it means how many times 
 cook for use gemonade. And on variable `stackStop` it means how many 
-times cook and then stop. YOU CAN IMPROVE THIS FUNCTION
+times cook and then stop. 
 
 ```lua
 function main()
